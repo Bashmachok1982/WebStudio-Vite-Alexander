@@ -17,6 +17,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="
+    ./img/people-office-mobile-1x.webp 1x,
+    ./img/people-office-mobile-2x.webp 2x
+  "
+      imagesizes="100vw"
+      media="(max-width: 767px)"
+      fetchpriority="high"
+    />
+
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="
+    ./img/people-office-tablet-1x.webp 1x,
+    ./img/people-office-tablet-2x.webp 2x
+  "
+      imagesizes="100vw"
+      media="(min-width: 768px) and (max-width: 1157px)"
+      fetchpriority="high"
+    />
+
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="
+    ./img/people-office-desktop-1x.webp 1x,
+    ./img/people-office-desktop-2x.webp 2x
+  "
+      imagesizes="100vw"
+      media="(min-width: 1158px)"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
