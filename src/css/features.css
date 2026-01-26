@@ -1,5 +1,5 @@
 .features {
-  background: #fff;
+  background: var(--bg-section-light);
   padding: 96px 0;
 }
 .visually-hidden {
@@ -18,21 +18,21 @@
   display: flex;
 }
 .section-title {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  letter-spacing: var(--ls-tight);
+  color: var(--text-primary);
 }
 .feature-title {
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-size: var(--fs-20);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-primary);
 }
 .feature-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-16);
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-secondary);
   max-width: 288px;
 }
 .feature-icon-box,
@@ -48,12 +48,12 @@
   }
   .feature-title {
     text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-36);
+    line-height: var(--lh-ultra-tight);
   }
   .feature-text {
-    font-weight: 500;
+    font-weight: var(--fw-medium);
     margin-top: 8px;
   }
 }
@@ -66,18 +66,18 @@
     flex-direction: row;
   }
   .feature-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-36);
+    line-height: var(--lh-ultra-tight);
     margin-bottom: 8px;
-    letter-spacing: 0.02em;
+    letter-spacing: var(--ls-tight);
     text-align: start;
   }
   .feature-text {
-    font-weight: 500;
+    font-weight: var(--fw-medium);
     max-width: 356px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: var(--lh-normal);
+    letter-spacing: var(--ls-tight);
   }
 }
 
@@ -95,11 +95,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #8e8f99;
+    border: 1px solid var(--border-default);
     border-radius: 4px;
     width: 100%;
     height: 112px;
-    background: #f4f4fd;
+    background: var(--bg-icon-muted);
     margin-bottom: 8px;
   }
   .feature-icon {
@@ -112,8 +112,8 @@
   }
   .feature-title {
     margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-20);
+    line-height: var(--lh-tight);
   }
 }

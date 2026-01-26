@@ -1,3 +1,122 @@
+:root {
+  /* ================= BASE COLORS (палитра) ================= */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-neutral-100: #f4f4fd;
+  --color-neutral-200: #e7e9fc;
+  --color-neutral-300: #fcfcfc;
+  --color-neutral-400: #8e8f99;
+  --color-neutral-600: #434455;
+  --color-neutral-800: #2e2f42;
+  --color-neutral-700: #2f2f37;
+
+  --color-primary-500: #4d5ae5;
+  --color-primary-600: #404bbf;
+
+  --color-success-500: #31d0aa;
+
+  --color-overlay-dark: rgba(46, 47, 66, 0.4);
+  --color-overlay-hero: rgba(46, 47, 66, 0.7);
+
+  --color-border-alpha: rgba(46, 47, 66, 0.4);
+  --color-border-light-alpha: rgba(0, 0, 0, 0.1);
+
+  /* ================= BACKGROUNDS ================= */
+  --bg-page: var(--color-white);
+  --bg-section-light: var(--color-neutral-100);
+  --bg-section-dark: var(--color-neutral-800);
+  --bg-card: var(--color-white);
+  --bg-modal: var(--color-neutral-300);
+  --bg-icon: var(--color-neutral-200);
+  --bg-backdrop: var(--color-overlay-dark);
+
+  --bg-accent: var(--color-primary-500);
+  --bg-accent-hover: var(--color-primary-600);
+
+  --bg-icon-muted: var(--color-neutral-100);
+  --bg-icon-accent: var(--color-primary-500);
+  --bg-icon-accent-hover: var(--color-primary-600);
+  --bg-icon-text-hover: var(--color-white);
+
+  /* ================= TEXT ================= */
+  --text-primary: var(--color-neutral-800);
+  --text-secondary: var(--color-neutral-600);
+  --text-muted: var(--color-neutral-400);
+
+  --text-inverse: var(--color-white);
+  --text-on-accent: var(--color-neutral-100);
+
+  --text-link-accent: var(--color-primary-500);
+  --text-link-hover: var(--color-primary-600);
+
+  --text-modal: var(--color-overlay-dark);
+
+  /* ================= BORDERS ================= */
+  --border-default: var(--color-neutral-400);
+  --border-light: var(--color-neutral-200);
+  --border-white: var(--color-white);
+  --border-accent: var(--color-primary-500);
+  --border-alpha: var(--color-border-alpha);
+  --border-light-alpha: var(--color-border-light-alpha);
+
+  /* ================= ICONS ================= */
+  --icon-primary: var(--color-neutral-800);
+  --icon-secondary: var(--color-neutral-700);
+  --icon-muted: var(--color-neutral-400);
+  --icon-on-accent: var(--color-neutral-100);
+  --icon-on-secondary-accent: var(--color-white);
+  --icon-on-accent-hover: var(--color-success-500);
+
+  /* ================= SHADOWS ================= */
+  --shadow-header:
+    0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+
+  --shadow-card:
+    0px 4px 6px rgba(46, 47, 66, 0.1), 0px 4px 4px rgba(46, 47, 66, 0.12),
+    0px 6px 8px rgba(46, 47, 66, 0.1);
+
+  --shadow-modal:
+    0px 1px 1px rgba(204, 133, 133, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  --shadow-input: rgba(0, 0, 0, 0.15);
+
+  --shadow-btn: rgba(0, 0, 0, 0.15);
+
+  /* ================= FONTS ================= */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+
+  /* ================= FONT WEIGHTS ================= */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* ================= FONT SIZES ================= */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-36: 36px;
+  --fs-56: 56px;
+
+  /* ================= LINE HEIGHTS ================= */
+  --lh-ultra-tight: 1.11;
+  --lh-tight: 1.17;
+  --lh-midle: 1.33;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.75;
+  --lh-max: 2;
+
+  /* ================= LETTER SPACING ================= */
+  --ls-tight: 0.02em;
+  --ls-midle: 0.03em;
+  --ls-wide: 0.04em;
+}
+
 * {
   text-decoration: none;
   list-style: none;
@@ -7,10 +126,10 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
-  line-height: 1.5;
+  font-family: var(--font-primary);
+  color: var(--text-inverse);
+  background-color: var(--bg-page);
+  line-height: var(--lh-normal);
 }
 
 h1,
