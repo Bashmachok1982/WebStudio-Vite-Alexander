@@ -1,5 +1,11 @@
 🌐 WebStudio (Vite Edition)
 
+🖼 Превью
+
+<p align="center">
+  <img src="./src/img/preview.webp" alt="Project Preview" width="1400">
+</p>
+
 👉 Live Demo: 🔗 https://bashmachok1982.github.io/WebStudio-Vite-Alexander/
 
 👉 Repository: 🔗 https://github.com/bashmachok1982/WebStudio-Vite-Alexander
@@ -88,9 +94,3 @@ hover / focus
 ⚡ Vite
 
 🌍 GitHub Pages
-
-🖼 Превью
-
-<p align="center">
-  <img src="./src/img/preview.webp" alt="Project Preview" width="1400">
-</p>
